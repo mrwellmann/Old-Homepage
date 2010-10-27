@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <title><%= controller.controller_name %>: <%= controller.action_name %></title>
+        <%= stylesheet_link_tag 'portfolio_style' %>
+    </head>
+    <body>
+
+        <div class="portfolio">
+        	<div id="bg">
+	        	<img src="/images/backgroud.jpg" alt=""/>
+			</div>
+            <div id="container">
+                <div id="nav">
+                    <ul id="navigation">
+                    	<li id="btn_bg00a">
+                            <a id="btn_bg00b" 
+							<%if params[:controller] == "home" %>
+								class="over" 
+							<%else%> 
+								class="" 
+							<%end%>
+							href="home.html" alt=" PORTFOLIO.markus*wellmann - Zur Person" title="PORTFOLIO.markus*wellmann - Zur Person"><span>Home</span></a>
+                        </li>
+                        <li id="btn_bg01a">
+                            <a id="btn_bg01b" 
+							<%if params[:controller] == "person" %>
+								class="over" 
+							<%else%> 
+								class="" 
+							<%end%>
+							href="person.html" alt=" PORTFOLIO.markus*wellmann - Zur Person" title="PORTFOLIO.markus*wellmann - Zur Person"><span>PERSON</span></a>
+                        </li>
+                        <li id="btn_bg02a">
+                            <a id="btn_bg02b" 
+							<%if params[:controller] == "cv" %>
+								class="over" 
+							<%else%> 
+								class="" 
+							<%end%>
+							href="cv.html" alt="PORTFOLIO.markus*wellmann - Zum Lebenslauf" title="PORTFOLIO.markus*wellmann - Zum Lebenslauf"><span>LEBENSLAUF</span></a>
+                        </li>
+                        <li id="btn_bg03a">
+                            <a id="btn_bg03b" 
+							<%if params[:controller] == "work" %>
+								class="over" 
+							<%else%> 
+								class="" 
+							<%end%>
+							href="work.html" alt="PORTFOLIO.markus*wellmann - Bisherige Arbeiten" title="PORTFOLIO.markus*wellmann - Bisherige Arbeiten"><span>ARBEITEN</span></a>
+                        </li>
+                        <li id="btn_bg04a">
+                            <a id="btn_bg04b"
+							<%if params[:controller] == "contact" %>
+								class="over" 
+							<%else%> 
+								class="" 
+							<%end%>
+							href="contact.html" alt="PORTFOLIO.markus*wellmann - Kontaktdaten" title="PORTFOLIO.markus*wellmann - Kontaktdaten"><span>KONTAKT</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="top">
+  
+                </div>
+                <div id="mainContent">
+                    <div id="content">
+                        <a href="home.html">
+                        	<img src="images/head.png" alt="PORTFOLIO.markus*wellmann - Zur Startseite" title="PORTFOLIO.markus*wellmann - Zur Startseite" align="middle" />
+						</a>
+                    <br/>
+                    <%= yield %>
+                    <br/>
+                    <hr/>
+                </div>
+                <br/>
+            </div>
+            <div id="bottom">
+                <span class="imp"><a id="content" href="about.html" alt="PORTFOLIO.markus*wellmann - Impressum" title="PORTFOLIO.markus*wellmann - Impressum">Impressum</a></span>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

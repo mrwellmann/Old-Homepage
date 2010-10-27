@@ -1,0 +1,247 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font: 100% Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow-x:hidden;
+  }
+
+
+.portfolio #nav {
+	text-align: center;
+	height: 60px;
+	margin: 0px 0px 0px -10px;
+	}
+
+	
+/* ++++++++++++++++++++++++++++++ */
+/* +++++++++++ LAYOUT +++++++++++ */
+/* ++++++++++++++++++++++++++++++ */
+
+.portfolio #bg img {
+    margin:0 auto;
+	min-width:100%;
+	min-height:100%;
+}
+
+.portfolio #bg {
+	overflow-x:hidden;
+	top: 0;
+    left: 0;
+	min-width:100%;
+	min-height:100%;
+    position: absolute;
+	z-index: -1;
+}
+
+.portfolio #container {
+  width: 810px;  
+  margin: 0 auto;
+  text-align: left;
+  z-index: 100;
+}
+
+.portfolio img {
+	border:none;
+}
+
+.portfolio #top {
+	height: 49px;
+	background-image: url(../images/bg_top.png);
+	background-repeat: no-repeat;
+	margin: 0 25px 0 25px;
+	text-align: left;
+	}
+	
+.portfolio #mainContent {
+	margin: 0 25px 0 25px;
+	background-image: url(../images/bg_main.png);
+	text-align: left;
+	}
+	
+.portfolio #bottom {
+	height: 49px;
+	margin: 0 25px 0 25px;
+	background-image: url(../images/bg_bottom.png);
+	text-align: right;
+	}
+	
+.portfolio #content {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+	
+.portfolio #mainContent h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #97bf0d;
+	}
+
+.portfolio #main_table	{
+	width:100%;
+	vertical-align:top;
+}
+
+.portfolio #content_table	{
+	border-collapse: separate;
+    border-spacing: 0px 8px;
+}
+
+.portfolio #pic{
+	vertical-align:top;
+	text-align:right;
+}
+
+.portfolio #icons{
+	width:60%
+}	
+	
+/* ++++++++++++++++++++++++++++++ */
+/* ++++++++ SPAN - TEXTE ++++++++ */
+/* ++++++++++++++++++++++++++++++ */
+
+.text {
+	color: #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+	
+.text a {
+	text-decoration: none;
+	color: #97bf0d;
+	}
+
+.text a:hover {
+	text-decoration: underline;
+	}
+	
+.text #download{
+	text-align: center;
+}
+	
+.text #cv_cell1{
+	vertical-align:top;
+	width: 120px;
+}
+
+.text #sub_text {
+	font-size: 12px;
+	font-style:italic;
+	color: #9a9487;
+	}
+
+.imp a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	color: #CCC;
+	}
+		
+.imp a:hover {
+	text-decoration: underline;
+	}
+	
+.new {
+	color: #C30;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+	
+.title {
+	color: #9a9487;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+	
+.invisibel {display: none;}
+
+.end {
+	color: #ccc;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	}
+	
+.nav {
+	display: ;
+	color: #111;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+	
+	
+	
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++ WIEDER VERWERTBARE KLASSEN +++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++ */
+	
+
+.fltrt {
+  float: right;
+  margin-left: 8px;
+}
+
+.fltlft {
+  float: left;
+  margin-right: 8px;
+}
+
+.clearfloat {
+  clear: both;
+  height: 1px;
+  font-size: 1px;
+  line-height: 0px;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++ */
+/* +++++++++ NAVIGATION +++++++++ */
+/* ++++++++++++++++++++++++++++++ */
+
+#navigation {list-style: none; width: auto; height: 56px; margin: 0; padding: 0 0 0 60px; border: 0; text-align: center;}
+	
+#navigation span {display: none;}
+
+#navigation li {float: left; display: block;}
+
+#navigation li.lastitem {cursor: pointer; float: right; margin-right: 20px; }
+* html #navigation li.lastitem {margin-right: 0px; }
+
+#navigation li a {display: block; height: 70px; background-position: 0 -15px; background-repeat: no-repeat;}
+        
+#navigation li a:hover, #navigation li a.over, #navigation li:hover a, #navigation a:focus, #navigation a:active, #navigation li.aktiv a {background-position: 0 -80px; background-repeat: no-repeat;}
+        
+#navigation li a:hover, 
+#navigation li a.over, 
+#navigation li:hover a, 
+#navigation a:focus,
+#navigation a:active, 
+#navigation li.aktiv a {background-position: 0 0px; background-repeat: no-repeat;}
+
+#btn_bg00b {background-image: url(../images/home_btn.png); width: 143px;}        
+#btn_bg01b {background-image: url(../images/person_btn.png); width: 143px;}
+#btn_bg02b {background-image: url(../images/lebenslauf_btn.png); width: 143px;}       
+#btn_bg03b {background-image: url(../images/arbeiten_btn.png); width: 143px;}
+#btn_bg04b {background-image: url(../images/kontakt_btn.png); width: 143px;}
+
+* html #btn_bg01b {background-image: url(../image/home_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/home_btn.png', sizingMethod='scale'); background:none;}
+* html #btn_bg01b {background-image: url(../image/person_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/person_btn.png', sizingMethod='scale'); background:none;}
+* html #btn_bg02b {background-image: url(../image/lebenslauf_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/lebenslauf_btn.png', sizingMethod='scale'); background:none;}       
+* html #btn_bg03b {background-image: url(../image/arbeiten_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/arbeiten_btn.png', sizingMethod='scale'); background:none;}
+* html #btn_bg04b {background-image: url(../image/kontakt_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/kontakt_btn.png', sizingMethod='scale'); background:none;}
+
+#navigation li ul {position: absolute; display: none; width: 178px; background: #7e7f83; border: 1px solid #6b6b6d; margin: 0; padding: 10px 20px;}
+       
+#navigation li:hover ul, #navigation li.aktiv ul {display: block;}
+   
+#navigation li ul li {display: block; float: left; width: 89px; font-weight: bold;}
+
+#navigation li:hover ul a, #navigation li.aktiv ul a {display: block; color: #fff; text-decoration: none; height: 24px; line-height: 24px; border-bottom: 1px solid #98999b; padding-right: 10px;}
+
+#navigation ul a:hover, #navigation ul a.over {color: #fff !important; border-bottom: 1px solid #fff !important;}
