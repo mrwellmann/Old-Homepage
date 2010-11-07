@@ -13,7 +13,7 @@ GEM
       activesupport (= 2.3.10)
     activesupport (2.3.10)
     rack (1.1.0)
-    rails (2.3.10)
+    rails (2.3.8)
       actionmailer (= 2.3.10)
       actionpack (= 2.3.10)
       activerecord (= 2.3.10)
