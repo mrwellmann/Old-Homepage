@@ -6,8 +6,7 @@
 User-agent: *
 Disallow: /*.pdf$
 Disallow: /*.pdf
-Disallow: /person.html
-Disallow: /cv.html
-Disallow: /html
-Disallow: /contact.html
-Disallow: /about.html
+Disallow: /*.png$
+Disallow: /*.png
+Disallow: /*.jpg$
+Disallow: /*.jpg
