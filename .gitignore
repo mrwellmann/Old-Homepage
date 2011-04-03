@@ -8,3 +8,5 @@ tmp/*
 coverage/*
 log/*
 .bundle/*
+Gemfile
+Gemfile.lock
