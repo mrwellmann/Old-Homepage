@@ -5,9 +5,10 @@
 }
 
 body {
+  background-image: url(http://webuser.hs-furtwangen.de/~wellma/private/hp/backgroud.jpg);
+  background-repeat:repeat;
   font: 100% Arial, Helvetica, sans-serif;
   text-align: center;
-  overflow-x:hidden;
   }
 
 
@@ -20,22 +21,6 @@ body {
 /* ++++++++++++++++++++++++++++++ */
 /* +++++++++++ LAYOUT +++++++++++ */
 /* ++++++++++++++++++++++++++++++ */
-
-.portfolio #bg img {
-    margin:0 auto;
-	min-width:100%;
-	min-height:100%;
-}
-
-.portfolio #bg {
-	overflow-x:hidden;
-	top: 0;
-    left: 0;
-	min-width:100%;
-	min-height:100%;
-    position: absolute;
-	z-index: -1;
-}
 
 .portfolio #container {
   width: 810px;  
