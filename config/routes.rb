@@ -3,7 +3,6 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :person, :only => :index
   map.resources :contact, :only => :index
   map.resources :work, :only => :index
-  map.resources :cv, :only => :index
   map.resources :about, :only => :index
   
   map.root :controller => :home

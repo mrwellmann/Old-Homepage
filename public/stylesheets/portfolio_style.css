@@ -217,18 +217,15 @@ body {
 #navigation a:active, 
 #navigation li.aktiv a {background-position: 0 0px; background-repeat: no-repeat;}
 
-/*../image/home_btn.png*/
 #btn_bg00b {background-image: url(http://dl.dropbox.com/u/2292024/hp/home_btn.png); width: 143px;}        
-#btn_bg01b {background-image: url(http://dl.dropbox.com/u/2292024/hp/person_btn.png); width: 143px;}
-#btn_bg02b {background-image: url(http://dl.dropbox.com/u/2292024/hp/lebenslauf_btn.png); width: 143px;}       
+#btn_bg01b {background-image: url(http://dl.dropbox.com/u/2292024/hp/skills_btn.png); width: 143px;}     
 #btn_bg03b {background-image: url(http://dl.dropbox.com/u/2292024/hp/portfolio_btn.png); width: 143px;}
-#btn_bg04b {background-image: url(http://dl.dropbox.com/u/2292024/hp/kontakt_btn.png); width: 143px;}
+#btn_bg04b {background-image: url(http://dl.dropbox.com/u/2292024/hp/contact_btn.png); width: 143px;}
 
 * html #btn_bg01b {background-image: url(http://dl.dropbox.com/u/2292024/hp/home_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/home_btn.png', sizingMethod='scale'); background:none;}
-* html #btn_bg01b {background-image: url(http://dl.dropbox.com/u/2292024/hp/person_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/person_btn.png', sizingMethod='scale'); background:none;}
-* html #btn_bg02b {background-image: url(http://dl.dropbox.com/u/2292024/hp/lebenslauf_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/lebenslauf_btn.png', sizingMethod='scale'); background:none;}       
+* html #btn_bg01b {background-image: url(http://dl.dropbox.com/u/2292024/hp/skills_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/skills_btn.png', sizingMethod='scale'); background:none;}     
 * html #btn_bg03b {background-image: url(http://dl.dropbox.com/u/2292024/hp/portfolio_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/portfolio_btn.png', sizingMethod='scale'); background:none;}
-* html #btn_bg04b {background-image: url(http://dl.dropbox.com/u/2292024/hp/kontakt_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/kontakt_btn.png', sizingMethod='scale'); background:none;}
+* html #btn_bg04b {background-image: url(http://dl.dropbox.com/u/2292024/hp/contact_btn.png); width: 143px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://dl.dropbox.com/u/2292024/hp/contact_btn.png', sizingMethod='scale'); background:none;}
 
 #navigation li ul {position: absolute; display: none; width: 178px; background: #7e7f83; border: 1px solid #6b6b6d; margin: 0; padding: 10px 20px;}
        
