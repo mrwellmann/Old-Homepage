@@ -9,7 +9,7 @@ body {
   background-repeat:repeat;
   font: 100% Arial, Helvetica, sans-serif;
   text-align: center;
-  overflow-x: scroll;
+  overflow-y: scroll;
   }
 
 
