@@ -9,6 +9,7 @@ body {
   background-repeat:repeat;
   font: 100% Arial, Helvetica, sans-serif;
   text-align: center;
+  overflow-x: visible;
   }
 
 
@@ -16,7 +17,6 @@ body {
 	text-align: center;
 	height: 60px;
 	margin: 0px 0px 0px -10px;
-	overflow-x: scroll;
 	}
 
 /* ++++++++++++++++++++++++++++++ */
